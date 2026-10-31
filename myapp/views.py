@@ -8,5 +8,3 @@ def home(request):
 def about(request):
     return HttpResponse("<h1>About Page</h1><p>This is the about page of my Django application.</p>")
 
-def cats(request):
-    return HttpResponse("<h1>i like cats :)</h1>")
